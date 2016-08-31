@@ -61,20 +61,19 @@ INSERT INTO tbl_pessoa (pessoa_id, prenome, sobrenome, raca, sexo, cidade_nasc, 
 VALUES
 
 -- Docentes
-('24174616256', 'José', 'Silva', 'Branca', 'Masculino', 'São Carlos', 'Brasil', 'SP', '1990-12-31', 'João Silva', 'Maria Machado'),
-('40078919665', 'Raimundo', 'Carvalho', 'Branca', 'Masculino', 'Pirapora do Bom Jesus', 'Brasil', 'SP', '1989-09-24', 'Joselyto Carvalho', 'Maria Castelo'),
-('72003800670', 'Alice', 'Moreira', 'Branca', 'Feminino', 'São Paulo', 'Brasil', 'SP', '1992-01-23', 'Fernando Moreira', 'Ana Santos'),
-('72799547230', 'Roberta', 'Schmitt', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
-('11104385910', 'Legolas', 'Silva', 'Elfo', 'Masculino', 'Terra Média', 'Brasil', 'AC', '1991-02-28', 'Sívio Silva', 'Sílva Silva'),
+('24174616256','CPF, '890321829', 'José', 'Silva', 'Branca', 'Masculino', 'São Carlos', 'Brasil', 'SP', '1990-12-31', 'João Silva', 'Maria Machado'),
+('40078919665','CPF, '820321829', 'Raimundo', 'Carvalho', 'Branca', 'Masculino', 'Pirapora do Bom Jesus', 'Brasil', 'SP', '1989-09-24', 'Joselyto Carvalho', 'Maria Castelo'),
+('72003800670','CPF, '890331829', 'Alice', 'Moreira', 'Branca', 'Feminino', 'São Paulo', 'Brasil', 'SP', '1992-01-23', 'Fernando Moreira', 'Ana Santos'),
+('72799547230','CPF, '890321829', 'Roberta', 'Schmitt', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
+('11104385910','CPF, '894221829', 'Legolas', 'Silva', 'Elfo', 'Masculino', 'Terra Média', 'Brasil', 'AC', '1991-02-28', 'Sívio Silva', 'Sílva Silva'),
 
 -- Estudantes
-('90778718530', 'Alice', 'Alves', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
-('99982994204', 'Bob', 'Braga', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
-('02835384308', 'Carol', 'Cardoso', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
-('91994871601', 'Dave', 'Dias', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
-('77426047792', 'Eve', 'Esteves', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
-('54523707227', 'Frank', 'Fernandes', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira');
-
+('90778718530','CPF, '890441829', 'Alice', 'Alves', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
+('99982994204','CPF, '890551829', 'Bob', 'Braga', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
+('02835384308','CPF, '890661829', 'Carol', 'Cardoso', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
+('91994871601','CPF, '890771829', 'Dave', 'Dias', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
+('77426047792','CPF, '890881829', 'Eve', 'Esteves', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira'),
+('54523707227','CPF, '550321829', 'Frank', 'Fernandes', 'Branca', 'Feminino', 'Belo Horizonte', 'Brasil', 'MG', '1988-04-04', 'José Schmitt', 'Carla Pereira');
 
 -- ----------------------------------------------------------------------------
 -- Docente
