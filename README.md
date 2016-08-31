@@ -74,31 +74,31 @@ Enfim, verifiquem que tudo do seu grupo seja resolvido. Conforme as questões se
 
 ## Grupo 6A
 
-###*POPULAR* - E-mail
+@@@@CORRIGIDO     ###*POPULAR* - E-mail
 
-###*FAZER* Nacional & Estrangeiro
-
+@@@@CORRIGIDO ###*FAZER* Nacional & Estrangeiro
+@@CORREÇÃO -> Adicionado um atributo na tbl_pessoa chamado tipo_documento, que pode ser CPF ou Passaporte,suficiente para saber nacional ou estrangeiro. também foi adicionado um atributo rg_pessoa.
 - FALTANDO: Inexistentes no modelo físico.
 - Acredito que seja responsabilidade do responsável pela tabela Pessoa.
-
-###*REVISAR & POPULAR* - Endereço
-
+@@@@@@@@@@@@@@@@@@@@@@
+@@@@CORRIGIDO  ###*REVISAR & POPULAR* - Endereço
+@@@@CORREÇÃO: A Tabela foi populada, porém a chave primária foi mantida. E o numero da casa foi adicionado à Rua na hora de popular.
 - No modelo físico, o discriminador está como CEP. Porém, de acordo com o modelo conceitual, o discriminador deveria ser Tipo (Local ou Origem).
 - Acredito que está faltando o atributo "número" (número da casa).
-
-###*REVISAR* - Docente
-
+@@@@@@@@@@@@@@@@@@@@@
+@@@@@CORRIGIDO###*REVISAR* - Docente
+@@@@@COORREÇÃO: ATRIBUTOS PARCIAL E INTEGRAL RETIRADOS E SÓ HÁ UM ALÍVÍO AGORA,QUE PODE TER VALOR INTEGRAL OU PARCIAL
+@@@@@Também ja populado
 - Alívio integral/parcial: básicamente, rever que porra é essa. Quem for encarregado desta tabela, por favor _verifique o requisito_ do seu grupo e verifique o que diabos é saporra aqui. Caso seja "tipo de alívio: integral ou parcial", seria só um atributo chamado "alívio" e conteria ou o valor "integral" ou "parcial".
 
-###*REVISAR & POPULAR* Carga Horária
+@@@@@CORRIGIDO ###*REVISAR & POPULAR* Carga Horária
 
 - Acho que os discriminadores deveriam ser ano inicial + semestre inicial, e não só semestre inicial. Acredito que o atributo semestre (inicial) só se refere se é 1º ou 2º semestre do ano.
 - Também notei que não há população alguma dessa tabela.
+@@@@@@@@@@@@@@@@@@@@@@@2
 
-###*FAZER* - Licença
+###*FAZER* - Popular tabela Licença
 
-- FALTANDO: Atualmente, não existe a tabela Licença no nosso modelo físico.
-- Acredito que seja responsabilidade do responsável pela tabela Docente.
 
 ###*REVER* - Sala
 
